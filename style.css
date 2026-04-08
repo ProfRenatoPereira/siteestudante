@@ -13,29 +13,18 @@ header {
 	margin: 0px;
 }
 
-nav {
-	position: absolute;
-	top: 70px;
-	left: 10px;
+nav ul {
+    display: flex; /* Define o layout como horizontal */
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Centraliza os itens (opcional) */
+    gap: 20px; /* Adiciona espaçamento entre os itens */
 }
-
-nav li {
-	display: inline;
-	margin: 0px 0px 0px 20px;
-}
-
 nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 15px;
-	text-decoration: none;
+    text-decoration: none; /* Remove sublinhado dos links */
 }
 
-nav a:hover {
-	color: #c0f309;
-	text-decoration: underline;
-}
 
 .estudos {
 	width: 840px;
