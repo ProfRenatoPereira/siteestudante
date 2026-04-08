@@ -26,6 +26,34 @@ nav a {
 }
 
 
+
+
+nav {
+	position: absolute;
+	top: 70px;
+	left: 10px;
+}
+
+nav li {
+	display: inline;
+	margin: 0px 0px 0px 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c0f309;
+	text-decoration: underline;
+}
+
+
+
 .estudos {
 	width: 840px;
 	margin: 0 auto;
