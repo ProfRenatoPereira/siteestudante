@@ -44,6 +44,12 @@ nav a:hover {
 }
 
 
+.tabela {
+ width:100%;
+ padding: 8px;
+ margin-top: 7px;
+ border:1px solid black;
+}
 
 
 .menu {
@@ -73,6 +79,8 @@ nav a:hover {
 	float: left;
 	width: 60%;
 	padding: 0 20px;
+   box-sizing: border-box;
+  }
   }
   
   .right {
